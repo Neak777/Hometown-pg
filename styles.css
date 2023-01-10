@@ -1,0 +1,137 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+ body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+ 
+}
+
+img {
+    width: 100px;
+}
+.Hero{
+    background-image: url("images/okatse.jpg");
+    background-size:cover;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    padding: 100px;
+      
+}
+
+.first{
+    padding: 10px 20px 10px 26px;
+    background:#1D3557; 
+    color: #FFFF;
+    font-size: 32px;
+    border-radius: 10px;
+    }
+
+.second{
+   color: #FFFF; 
+   background: #457B9D;
+   border-radius: 10px;
+   padding: 5px 5px 5px 5px;
+   font-size: 19px;
+}
+ 
+
+.third{
+     padding:50px;
+    color:#1D3557;
+    font-size:24px;
+    
+}
+.h3{
+       color:#1C6758;
+       font-size: 24px;
+}
+
+.activities{
+        width:700px;
+        height:300px;
+        display:flex;
+    
+        margin-left: auto;
+        margin-right: auto;
+        margin-top:100px;
+        flex-direction: row;
+        align-items: center;
+     
+    
+    
+}
+.box{
+    margin:10px;
+    width:300px;
+    height:400px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding:80px;
+    color:#1D3557;
+    
+}
+
+.img{
+    width:104px;
+    height:104px;
+    border-radius: 50%;
+}
+.guide{
+     display:flex;
+     width: 400px;
+     height:250px;
+     color:#1D3557;
+     border-radius:10px;
+     background: #A8DADC;
+     padding:20px;
+     box-shadow: 0px 6px 0px #1D3557;
+     margin-left: auto;
+     margin-right: auto;
+     margin-bottom: 50px;
+   
+}
+.avatar{
+    width: 180px;
+    height: 250;
+    flex-direction: right;
+    border-radius:20px;
+    padding:10px;
+  
+ 
+   
+}
+.btn{
+    position: relative;
+    border: 2px solid black;
+    background:springgreen;
+    padding: 10px 20px;
+    font-size:15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    margin:15px 10px;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition:1s all ease;
+
+}
+.btn:hover{
+ color:whitesmoke;
+ background: slateblue;
+ animation-fill-mode: 
+ z-index:  -1;
+ transition:0.8s;
+ transform:translate (-50%, -50%; )
+}
+ 
+ 
